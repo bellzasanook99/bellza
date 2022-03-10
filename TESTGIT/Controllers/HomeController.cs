@@ -20,7 +20,7 @@ namespace TESTGIT.Controllers
 
         public IActionResult Index()
         {
-            "test"
+           string xxx = "test";
             return View();
             
         }
