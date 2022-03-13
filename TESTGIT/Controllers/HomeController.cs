@@ -25,6 +25,7 @@ namespace TESTGIT.Controllers
             string xxx4 = "test";
 
             string xxx5 = "test";
+            _logger.LogDebug("testlog");
             return View();
             
         }
