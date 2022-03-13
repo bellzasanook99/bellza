@@ -21,6 +21,10 @@ namespace TESTGIT.Controllers
         public IActionResult Index()
         {
            string xxx = "test";
+            string xxx1 = "test";
+
+            string xxx2 = "test";
+            string xxx3 = "test";
             return View();
             
         }
