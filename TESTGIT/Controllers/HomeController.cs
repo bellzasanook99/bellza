@@ -15,13 +15,13 @@ namespace TESTGIT.Controllers
 
         public HomeController(ILogger<HomeController> logger)
         {
-            _logger = logger;
+          
         }
 
         public IActionResult Index()
         {
-          
 
+            string belltestmarg = "1245";
             return View();
             
         }
